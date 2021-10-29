@@ -1,0 +1,19 @@
+.h1 {
+    color: black;
+    text-align: left !important;
+}
+.character-link {
+    text-decoration: underline !important;
+    color: #007bff !important;
+}
+#setBg {  
+    height: 650 px;  
+    color: #fff;
+    background-image: url("../../assets/794889.jpg");  
+    background-size: 100% ;  
+    background-size: cover;
+    opacity: 0.2px;
+}   
+.container {
+    border:1px solid #cecece;
+}

@@ -1,0 +1,20 @@
+.previous-link {
+    text-align: left !important;
+    text-decoration: underline;
+}
+.character-align {
+    text-align: center;
+}
+.tableClass {
+    margin-left: 1px;
+}
+#setBg {  
+    height: 1000 px;  
+    color: #fff;
+    background-image: url("../../assets/794889.jpg");  
+    background-size: 100% ;  
+    background-size: cover;
+}
+.container{
+    border:1px solid #cecece;
+}

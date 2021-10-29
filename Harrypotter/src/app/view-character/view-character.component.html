@@ -1,0 +1,68 @@
+<br>
+<br>
+<div class="container" id="setBg">
+  <a class="previous-link" routerLink="/" (click)="previousPage()">
+    < Harry Potter Characters </a>
+      <br>
+      <br>
+
+      <h4> {{this.name}}</h4>
+      <div class="row">
+        <table class="table" class="col-sm-4 ">
+          <thead class="thead-light">
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Actor:</td>
+              <td>{{this.actor}}</td>
+            </tr>
+            <tr>
+              <td>Alive:</td>
+              <td>{{this.alive}}</td>
+            </tr>
+            <tr>
+              <td>Ancestry:</td>
+              <td>{{this.ancestry}}</td>
+            </tr>
+            <tr>
+              <td>Date of Birth:</td>
+              <td>{{this.dateOfBirth}}</td>
+            </tr>
+            <tr>
+              <td>Eye Color:</td>
+              <td>{{this.eyeColor}}</td>
+            </tr>
+            <tr>
+              <td>Gender:</td>
+              <td>{{this.gender}}</td>
+            </tr>
+            <tr>
+              <td>Hair Color:</td>
+              <td>{{this.hairColor}}</td>
+            </tr>
+            <tr>
+              <td>Hogwarts Staff:</td>
+              <td>{{this.hogwartsStaff}}</td>
+            </tr>
+            <tr>
+              <td>Hogwarts Student:</td>
+              <td>{{this.hogwartsStudent}}</td>
+            </tr>
+            <tr>
+              <td>House:</td>
+              <td>{{this.house}}</td>
+            </tr>
+            <tr>
+              <td>Patronus:</td>
+              <td>{{this.patronus}}</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table class="col-sm-8 character-align">
+          <img src={{this.image}}>
+        </table>
+      </div>
+</div>
